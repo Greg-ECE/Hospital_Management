@@ -1,0 +1,32 @@
+﻿<Window x:Class="First_app.Appointment_Management"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:First_app"
+        mc:Ignorable="d"
+        Title="Appointment_Management" Height="450" Width="800">
+    <Grid>
+
+        <Label Content="Patient Code" HorizontalAlignment="Left" Margin="38,101,0,0" Height="36" VerticalAlignment="Top"/>
+        <Label Content="Patient Name" HorizontalAlignment="Left" Margin="38,137,0,0" Height="36" VerticalAlignment="Top"/>
+        <Label Content="Patient Gender" HorizontalAlignment="Left" Margin="38,173,0,0" Height="36" VerticalAlignment="Top"/>
+        <RadioButton Content="F" HorizontalAlignment="Left" Margin="132,173,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="M" HorizontalAlignment="Left" Margin="132,193,0,0" VerticalAlignment="Top"/>
+        <Label Content="Doctor Code" HorizontalAlignment="Left" Margin="523,101,0,0" Height="36" VerticalAlignment="Top"/>
+        <Label Content="Doctor Name" HorizontalAlignment="Left" Margin="523,137,0,0" Height="36" VerticalAlignment="Top"/>
+        <Label Content="Doctor Speciality" HorizontalAlignment="Left" Margin="523,171,0,0" Height="36" VerticalAlignment="Top"/>
+        <Label Content="Appointment Date" HorizontalAlignment="Left" Margin="38,284,0,0" Height="36" VerticalAlignment="Top"/>
+        <Label Content="Appointment Time" HorizontalAlignment="Left" Margin="38,339,0,0" Height="36" VerticalAlignment="Top"/>
+        <Button Content="Add appointment" HorizontalAlignment="Left" Margin="476,288,0,0" VerticalAlignment="Top" Height="31" Width="194"/>
+        <Button Content="Add appointment" HorizontalAlignment="Left" Margin="476,326,0,0" VerticalAlignment="Top" Height="31" Width="194"/>
+        <Button Content="Add appointment" HorizontalAlignment="Left" Margin="476,362,0,0" VerticalAlignment="Top" Height="31" Width="194"/>
+        <TextBox HorizontalAlignment="Left" Margin="144,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="147,97,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox HorizontalAlignment="Left" Margin="626,97,0,0" VerticalAlignment="Top" Width="120"/>
+        <DatePicker HorizontalAlignment="Left" Margin="165,288,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="626,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="626,173,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="165,342,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>

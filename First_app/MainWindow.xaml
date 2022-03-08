@@ -1,0 +1,28 @@
+﻿<Window x:Class="First_app.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:First_app"
+        mc:Ignorable="d"
+        Title="Doctor_Management" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Management System" Background="DarkGray">
+                <MenuItem Header="Doctor Management" Click="DoctorManagement_Click"/>
+                <MenuItem Header="Patient Management" Click="PatientManagement_Click"/>
+                <MenuItem Header="Appointment Management" Click="AppointmentManagement_Click"/>
+            </MenuItem>
+            <MenuItem Header="Consultation" Background="DarkGray">
+                <MenuItem Header="Show All" Click="ShowAll_Click"/>
+                <MenuItem Header="Search appointment by date"/>
+                <MenuItem Header="Show a patient's appointments"/>
+            </MenuItem>
+            <MenuItem Header="Exit" Background="DarkGray"/>
+            </Menu>
+        </DockPanel>
+        
+
+    </Grid>
+</Window>
