@@ -16,3 +16,10 @@ C:\Users\Azhio\Dev\ece\C#\Wpf_first_lab\First_app\obj\Debug\First_app.exe
 C:\Users\Azhio\Dev\ece\C#\Wpf_first_lab\First_app\obj\Debug\First_app.pdb
 C:\Users\Azhio\Dev\ece\C#\Wpf_first_lab\First_app\obj\Debug\Doctor_management.g.cs
 C:\Users\Azhio\Dev\ece\C#\Wpf_first_lab\First_app\obj\Debug\Doctor_management.baml
+C:\Users\grego\OneDrive\Documents\ECE\Annee_2021-2022_-_ING4\S2\Hospital_Management\Wpf_first_lab\First_app\obj\Debug\First_app.csproj.AssemblyReference.cache
+C:\Users\grego\OneDrive\Documents\ECE\Annee_2021-2022_-_ING4\S2\Hospital_Management\Wpf_first_lab\First_app\obj\Debug\First_app.csproj.SuggestedBindingRedirects.cache
+C:\Users\grego\OneDrive\Documents\ECE\Annee_2021-2022_-_ING4\S2\Hospital_Management\Wpf_first_lab\First_app\obj\Debug\Doctor_management.g.cs
+C:\Users\grego\OneDrive\Documents\ECE\Annee_2021-2022_-_ING4\S2\Hospital_Management\Wpf_first_lab\First_app\obj\Debug\MainWindow.g.cs
+C:\Users\grego\OneDrive\Documents\ECE\Annee_2021-2022_-_ING4\S2\Hospital_Management\Wpf_first_lab\First_app\obj\Debug\App.g.cs
+C:\Users\grego\OneDrive\Documents\ECE\Annee_2021-2022_-_ING4\S2\Hospital_Management\Wpf_first_lab\First_app\obj\Debug\First_app_MarkupCompile.cache
+C:\Users\grego\OneDrive\Documents\ECE\Annee_2021-2022_-_ING4\S2\Hospital_Management\Wpf_first_lab\First_app\obj\Debug\First_app_MarkupCompile.lref

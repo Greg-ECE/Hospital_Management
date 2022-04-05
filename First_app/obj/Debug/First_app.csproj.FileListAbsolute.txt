@@ -26,3 +26,5 @@ C:\Users\Azhio\Dev\ece\C#\Wpf_first_lab\First_app\obj\Debug\Show_Patients_Appoin
 C:\Users\Azhio\Dev\ece\C#\Wpf_first_lab\First_app\obj\Debug\Search_Appointment.baml
 C:\Users\Azhio\Dev\ece\C#\Wpf_first_lab\First_app\obj\Debug\ShowAll.baml
 C:\Users\Azhio\Dev\ece\C#\Wpf_first_lab\First_app\obj\Debug\Show_Patients_Appointment.baml
+C:\Users\grego\OneDrive\Documents\ECE\Annee_2021-2022_-_ING4\S2\Hospital_Management\First_app\obj\Debug\First_app.csproj.AssemblyReference.cache
+C:\Users\grego\OneDrive\Documents\ECE\Annee_2021-2022_-_ING4\S2\Hospital_Management\First_app\obj\Debug\First_app.csproj.SuggestedBindingRedirects.cache

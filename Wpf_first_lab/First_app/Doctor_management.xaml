@@ -7,25 +7,29 @@
         mc:Ignorable="d"
         Title="Doctor_management" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="417*"/>
+        </Grid.RowDefinitions>
 
-        <Label Content="Doctor Management" HorizontalAlignment="Left" Margin="41,35,0,0" VerticalAlignment="Top"/>
-        <Label Content="Code" HorizontalAlignment="Left" Margin="101,103,0,0" VerticalAlignment="Top"/>
-        <Label Content="Name" HorizontalAlignment="Left" Margin="101,149,0,0" VerticalAlignment="Top"/>
-        <Label Content="Hiring Date" HorizontalAlignment="Left" Margin="101,246,0,0" VerticalAlignment="Top"/>
-        <Label Content="Telephone" HorizontalAlignment="Left" Margin="101,196,0,0" VerticalAlignment="Top"/>
-        <Label Content="Speciality" HorizontalAlignment="Left" Margin="101,318,0,0" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="195,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="195,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <DatePicker HorizontalAlignment="Left" Margin="195,248,0,0" VerticalAlignment="Top"/>
-        <Button Content="Nex" HorizontalAlignment="Left" Margin="552,82,0,0" VerticalAlignment="Top" Height="33" Width="146"/>
-        <Button Content="Search" HorizontalAlignment="Left" Margin="552,136,0,0" VerticalAlignment="Top" Height="33" Width="146"/>
-        <Button Content="Add" HorizontalAlignment="Left" Margin="552,192,0,0" VerticalAlignment="Top" Height="33" Width="146"/>
-        <Button Content="Edit" HorizontalAlignment="Left" Margin="552,248,0,0" VerticalAlignment="Top" Height="33" Width="146"/>
-        <Button Content="Delete" HorizontalAlignment="Left" Margin="552,301,0,0" VerticalAlignment="Top" Height="33" Width="146"/>
-        <Button Content="Exit" HorizontalAlignment="Left" Margin="552,356,0,0" VerticalAlignment="Top" Height="33" Width="146"/>
-        
-        <TextBox HorizontalAlignment="Left" Margin="195,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="195,326,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Doctor Management" HorizontalAlignment="Left" Margin="41,18,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label Content="Code" HorizontalAlignment="Left" Margin="101,86,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="101,132,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label Content="Hiring Date" HorizontalAlignment="Left" Margin="101,229,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label Content="Telephone" HorizontalAlignment="Left" Margin="101,179,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Label Content="Speciality" HorizontalAlignment="Left" Margin="101,301,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <TextBox x:Name="code" HorizontalAlignment="Left" Margin="195,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Margin="195,140,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+        <DatePicker x:Name="date" HorizontalAlignment="Left" Margin="195,231,0,0" VerticalAlignment="Top" Grid.Row="1"/>
+        <Button x:Name="btnnew" Content="New" HorizontalAlignment="Left" Margin="552,65,0,0" VerticalAlignment="Top" Height="33" Width="146" Click="Button_Click" Grid.Row="1"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="552,119,0,0" VerticalAlignment="Top" Height="33" Width="146" Grid.Row="1"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="552,175,0,0" VerticalAlignment="Top" Height="33" Width="146" Grid.Row="1"/>
+        <Button Content="Edit" HorizontalAlignment="Left" Margin="552,231,0,0" VerticalAlignment="Top" Height="33" Width="146" Grid.Row="1"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="552,284,0,0" VerticalAlignment="Top" Height="33" Width="146" Grid.Row="1"/>
+        <Button Content="Exit" HorizontalAlignment="Left" Margin="552,339,0,0" VerticalAlignment="Top" Height="33" Width="146" Grid.Row="1"/>
+
+        <TextBox x:Name="tel" HorizontalAlignment="Left" Margin="195,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+        <TextBox x:Name="speciality" HorizontalAlignment="Left" Margin="195,309,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
 
     </Grid>
 </Window>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Hospital" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.Appointment" Member="Appointment">
+    <Type Name="Appointment">
+      <Column Name="AppointmentCode" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DoctorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PatientId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AppointmentDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="AppointmentTime" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Doctors_Appointment" Member="Doctors" ThisKey="DoctorId" OtherKey="DoctorId" Type="Doctors" IsForeignKey="true" />
+      <Association Name="Patient_Appointment" Member="Patient" ThisKey="PatientId" OtherKey="PatientId" Type="Patient" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Doctors" Member="Doctors">
+    <Type Name="Doctors">
+      <Column Name="DoctorId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DoctorName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DoctorTel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HiringDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="DoctorSpecialism" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Doctors_Appointment" Member="Appointment" ThisKey="DoctorId" OtherKey="DoctorId" Type="Appointment" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Patient" Member="Patient">
+    <Type Name="Patient">
+      <Column Name="PatientId" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PatientName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PatientAddress" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="BirthDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="PatientGender" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Patient_Appointment" Member="Appointment" ThisKey="PatientId" OtherKey="PatientId" Type="Appointment" />
+    </Type>
+  </Table>
+</Database>
